@@ -6,6 +6,10 @@
 #include "GameFramework/Actor.h"
 #include "MyActor.generated.h"
 
+class UBoxComponent;
+class UStaticMeshComponent;
+class UProjectileMovementComponent;
+
 UCLASS()
 class L20260415_PRACTICE_API AMyActor : public AActor
 {
@@ -22,5 +26,17 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
+	TObjectPtr<UBoxComponent> Box;
+
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
+	TObjectPtr<UStaticMeshComponent> Body;
+
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
+	TObjectPtr<UProjectileMovementComponent> Movement;
+
+	UFUNCTION()
+	void ProcessActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor);
 
 };

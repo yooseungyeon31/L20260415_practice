@@ -13,5 +13,9 @@ UCLASS()
 class L20260415_PRACTICE_API UMyStaticMeshComponent : public UStaticMeshComponent
 {
 	GENERATED_BODY()
-	
+public:
+	UMyStaticMeshComponent();
+
+	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
 };

@@ -46,34 +46,34 @@ public:
 
 
 	//충돌 박스
-	UPROPERTY(VisibleAnyWhere,BlueprintReadOnly, Category = Components)
+	UPROPERTY(VisibleAnyWhere,BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UBoxComponent> Box;
 
 	//스태틱매쉬
-	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = Components)
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UStaticMeshComponent> Body;
 
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Components)
+	//프로펠러 왼쪽
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UMyStaticMeshComponent> Left;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Components)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UMyStaticMeshComponent> Right;
 
 	//화살표 방향(캐릭터가 보는 방향
-	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = Components)
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UArrowComponent> Arrow;
 
 	//카메라 거리 셀카봉
-	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = Components)
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<USpringArmComponent> SpringArm;
 
 	//카메라
-	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = Components)
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UCameraComponent> Camera;
 
 	//이동처리
-	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = Components)
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<UFloatingPawnMovement> Movement;
 
 	void Pitch(float Value);

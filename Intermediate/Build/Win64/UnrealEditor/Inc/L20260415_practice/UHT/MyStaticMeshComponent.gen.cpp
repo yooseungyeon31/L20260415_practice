@@ -100,7 +100,6 @@ UClass* Z_Construct_UClass_UMyStaticMeshComponent()
 	}
 	return Z_Registration_Info_UClass_UMyStaticMeshComponent.OuterSingleton;
 }
-UMyStaticMeshComponent::UMyStaticMeshComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UMyStaticMeshComponent);
 UMyStaticMeshComponent::~UMyStaticMeshComponent() {}
 // ********** End Class UMyStaticMeshComponent *****************************************************
