@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\L20260415_practice.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\L20260415_practice.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\L20260415_practiceEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\L20260415_practice">
+      <UniqueIdentifier>{C94300BA-3658-3058-889A-2BB1C4FD7C39}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\L20260415_practice\L20260415_practice.Build.cs">
+      <Filter>Source\L20260415_practice</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\L20260415_practice\L20260415_practice.cpp">
+      <Filter>Source\L20260415_practice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20260415_practice\L20260415_practice.h">
+      <Filter>Source\L20260415_practice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\L20260415_practice\MyGameModeBase.cpp">
+      <Filter>Source\L20260415_practice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20260415_practice\MyGameModeBase.h">
+      <Filter>Source\L20260415_practice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\L20260415_practice\MyPawn.cpp">
+      <Filter>Source\L20260415_practice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20260415_practice\MyPawn.h">
+      <Filter>Source\L20260415_practice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\L20260415_practice\MyPlayerController.cpp">
+      <Filter>Source\L20260415_practice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20260415_practice\MyPlayerController.h">
+      <Filter>Source\L20260415_practice</Filter>
+    </ClInclude>
+    <Filter Include="Source\L20260415_practice\Private">
+      <UniqueIdentifier>{86B6AB00-A354-3B3B-91B3-A6AC6EEE4932}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\L20260415_practice\Private\MyActor.cpp">
+      <Filter>Source\L20260415_practice\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\L20260415_practice\Private\MyStaticMeshComponent.cpp">
+      <Filter>Source\L20260415_practice\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\L20260415_practice\Public">
+      <UniqueIdentifier>{E2D709AA-99DB-30CC-8E8B-75A581DBA9BE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\L20260415_practice\Public\MyActor.h">
+      <Filter>Source\L20260415_practice\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\L20260415_practice\Public\MyStaticMeshComponent.h">
+      <Filter>Source\L20260415_practice\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

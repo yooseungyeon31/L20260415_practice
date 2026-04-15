@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "L20260415_practice",
+			"Path": "..\\Source\\L20260415_practice.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "L20260415_practiceEditor",
+			"Path": "..\\Source\\L20260415_practiceEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
